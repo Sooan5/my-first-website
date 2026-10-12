@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexus Digital Marketing Training Centre (Dynamic)</title>
+    <!-- Link to external CSS stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header & Navigation Bar -->
+    <header id="header">
+        <div class="container navbar">
+            <div class="logo">
+                <i class="fa-solid fa-graduation-cap"></i> <span>Nexus</span>Digital
+            </div>
+            <nav>
+                <ul id="nav-links" class="nav-links">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#courses" class="nav-link">Courses</a></li>
+                    <li><a href="#why-us" class="nav-link">Why Choose Us</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger" id="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Home / Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <span class="badge">🚀 Future-Proof Your Career</span>
+                <h1>Master Modern <span>Digital Marketing</span> & GEO</h1>
+                <p>Gain hands-on expertise in SEO, Generative Engine Optimization, Social Media Advertising, and Analytics with industry leaders.</p>
+                <div class="hero-btns">
+                    <a href="#courses" class="btn btn-primary">Explore Courses</a>
+                    <a href="#contact" class="btn btn-outline">Book Free Demo</a>
+                </div>
+            </div>
+            <div class="hero-card">
+                <div class="stats-box">
+                    <i class="fa-solid fa-users"></i>
+                    <div>
+                        <h3>5,000+</h3>
+                        <p>Students Trained</p>
+                    </div>
+                </div>
+                <div class="stats-box">
+                    <i class="fa-solid fa-briefcase"></i>
+                    <div>
+                        <h3>94%</h3>
+                        <p>Placement Rate</p>
+                    </div>
+                </div>
+                <div class="stats-box">
+                    <i class="fa-solid fa-star"></i>
+                    <div>
+                        <h3>4.9 / 5</h3>
+                        <p>Student Rating</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container about-grid">
+            <div class="about-image">
+                <div class="image-box">
+                    <i class="fa-solid fa-chalkboard-user"></i>
+                    <span>Industry Expert Trainers</span>
+                </div>
+            </div>
+            <div class="about-text">
+                <span class="section-tag">About Nexus</span>
+                <h2>Empowering the Next Generation of Digital Marketers</h2>
+                <p>At Nexus Training Centre, we bridge the gap between traditional academics and real-world industry demands. Our curriculum is constantly updated to include cutting-edge strategies like Generative Engine Optimization (GEO), AI-driven marketing, and omnichannel performance campaigns.</p>
+                <div class="features-list">
+                    <div class="feature-item">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span>100% Practical Live Projects Training</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span>Internationally Recognized Certifications</span>
+                    </div>
+                    <div class="feature-item">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span>Dedicated Career Counselling & Mentorship</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section (Dynamic) -->
+    <section id="courses" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Our Programs</span>
+                <h2>Industry-Ready Courses</h2>
+                <p>Choose a specialized path designed to launch your career or scale your business.</p>
+            </div>
+
+            <!-- Dynamic Search & Category Controls -->
+            <div class="course-controls">
+                <div class="search-box">
+                    <i class="fa-solid fa-search"></i>
+                    <input type="text" id="courseSearch" placeholder="Search courses by keyword...">
+                </div>
+                <div class="course-filters" id="filterContainer">
+                    <button class="filter-btn active" data-filter="all">All Courses</button>
+                    <button class="filter-btn" data-filter="seo">SEO & GEO</button>
+                    <button class="filter-btn" data-filter="social">Social Media</button>
+                    <button class="filter-btn" data-filter="analytics">Analytics</button>
+                </div>
+            </div>
+
+            <!-- Course Grid (Populated dynamically via JavaScript) -->
+            <div class="course-grid" id="courseGrid">
+                <!-- JavaScript inserts dynamic course cards here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-us" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Why Choose Us</span>
+                <h2>What Makes Nexus Stand Out</h2>
+                <p>We combine expert mentorship, practical tool access, and career support.</p>
+            </div>
+            <div class="why-grid">
+                <div class="why-card">
+                    <div class="icon-box"><i class="fa-solid fa-chalkboard"></i></div>
+                    <h3>Live Interactive Classes</h3>
+                    <p>Engage in real-time Q&A sessions and collaborative brainstorming with active digital marketing leaders.</p>
+                </div>
+                <div class="why-card">
+                    <div class="icon-box"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                    <h3>Paid Tool Access</h3>
+                    <p>Gain hands-on experience using industry-standard tools like SEMrush, Google Keyword Planner, and CRM platforms.</p>
+                </div>
+                <div class="why-card">
+                    <div class="icon-box"><i class="fa-solid fa-handshake"></i></div>
+                    <h3>Placement Assistance</h3>
+                    <p>Benefit from resume building workshops, mock interviews, and direct referrals to agency partners.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section (Dynamic Submission) -->
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Get In Touch</span>
+                <h2>Start Your Digital Journey Today</h2>
+                <p>Fill out the form below or reach out to our admissions team directly.</p>
+            </div>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <p>Have questions about our syllabus, batch timings, or fee structures? Speak with our counsellor.</p>
+                    <div class="info-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>Digital Tower, Business Bay, Suite 402</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>+971 4 123 4567</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>admissions@nexusdigital.training</span>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" required placeholder="Enter your full name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" required placeholder="Enter your email address">
+                        </div>
+                        <div class="form-group">
+                            <label for="course-select">Interested Course</label>
+                            <select id="course-select">
+                                <option value="seo">Advanced SEO & GEO Masterclass</option>
+                                <option value="social">Performance & Social Ads</option>
+                                <option value="analytics">Data Analytics & CRM Metrics</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message / Questions</label>
+                            <textarea id="message" rows="4" placeholder="Tell us about your goals..."></textarea>
+                        </div>
+                        <button type="submit" id="submitBtn" class="btn btn-primary btn-block">Send Message</button>
+                        <div id="formMessage" class="form-message"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 Nexus Digital Marketing Training Centre. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
